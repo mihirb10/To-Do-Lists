@@ -32,7 +32,11 @@
                             <outlet property="delegate" destination="HVW-Wk-vKV" id="GCq-0n-Gpu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="To Do" id="2fw-h0-56d"/>
+                    <navigationItem key="navigationItem" title="To Do" id="2fw-h0-56d">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="WY4-Hb-k5T">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X39-ew-ymS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
